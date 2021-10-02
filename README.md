@@ -1,14 +1,14 @@
 
 *I find the concept of embeddings to be one of the most fascinating ideas in machine learning. If you’ve ever used Siri, Google Assistant, Alexa, Google Translate, or even smartphone keyboard with next-word prediction, then chances are you’ve benefitted from this idea that has become central to Natural Language Processing models. There has been quite a development over the last couple of decades in using embeddings for neural models (Recent developments include contextualized embedding techniques leading to cutting-edge models like BERT and GPT2).*
 
-### Universal Sentence Encoder (https://arxiv.org/abs/1803.11175) with its implementation through Tensorflow (https://tfhub.dev/google/universal-sentence-encoder/2) has come through clutch in getting the most ordinally out of sentences as a whole instead of looking at it as just a group of words. This ability to semantically draw value out of textual data, which I am sure, makes it a great candidate for **Opinion Mining**.
+### Universal Sentence Encoder (https://arxiv.org/abs/1803.11175) with its implementation through Tensorflow (https://tfhub.dev/google/universal-sentence-encoder/2) has come through clutch in getting the most ordinally out of sentences as a whole instead of looking at it as just a group of words. This ability to semantically draw value out of textual data, makes it a great candidate for **Opinion Mining**.
 
 
 ### This project attempts to use Universal Sentence Encoder to embed tweets and classify them into positive VS negative.
 #### I tried to measure classification performance across sentence VS work embedding techniques for sentiment analysis.
 
 ## Instructions to Run
-###. **Install docker**
+### **Install docker**
 https://docs.docker.com/engine/install/
 
 ### Clone this repo
